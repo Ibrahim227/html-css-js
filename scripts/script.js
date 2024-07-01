@@ -11,5 +11,5 @@ function myFunction() {
     }
 }
 
-const myHeading = document.querySelector("h2");
+const myHeading = document.getElementsById("E");
 myHeading.textContent = "Hello World!";
