@@ -1,0 +1,535 @@
+{
+  "basics": {
+    "name": "Maman Sani Ibrahim",
+    "headline": "IT Engineer/Technician | Software Engineer (Frontend & Backend Developer)",
+    "email": "mamansani.ibrahim01@gmail.com",
+    "phone": "+227 {99793990 - 93325219}",
+    "location": "Niamey, Niger",
+    "url": {
+      "label": "",
+      "href": ""
+    },
+    "customFields": [],
+    "picture": {
+      "url": "",
+      "size": 100,
+      "aspectRatio": 1,
+      "borderRadius": 1000000,
+      "effects": {
+        "hidden": false,
+        "border": true,
+        "grayscale": false
+      }
+    }
+  },
+  "sections": {
+    "summary": {
+      "name": "Summary",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "summary",
+      "content": "<p style=\"text-align: justify\"><code>With a background in computing and telecommunications, I have been passionately transitioning from technical roles to software engineering since 2022. Dedicated to this career shift, I have immersed myself in learning programming and enhancing my skills over the past years. This journey has been both challenging and rewarding, allowing me to grow and adapt to the rapidly evolving tech landscape.</code></p>"
+    },
+    "awards": {
+      "name": "Awards",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "awards",
+      "items": []
+    },
+    "certifications": {
+      "name": "Certifications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "certifications",
+      "items": [
+        {
+          "id": "x6w48b54vjx7qotek5jfhy4y",
+          "visible": true,
+          "name": "Google IT Support Professional Certificate",
+          "issuer": "Coursera",
+          "date": "May 2022",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "l218r8rgxit5moqy7183k1ix",
+          "visible": true,
+          "name": "The Complete Python Bootcamp From Zero to Hero",
+          "issuer": "Udemy",
+          "date": "April 2023",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "wg0g65y1hniggqj4v23qohqb",
+          "visible": true,
+          "name": "Leadership and Communication",
+          "issuer": "Next Leadership Niger",
+          "date": "April 2023",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "lfkai80b2f5xulyq62kawchf",
+          "visible": true,
+          "name": "100w Cybersecurity Practices for Industrial Control Systems",
+          "issuer": "CISA",
+          "date": "March 2022",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "zha8qcmaelmnt2556i275m4z",
+          "visible": true,
+          "name": "UNITAR Online Training Program on strengthening digital skills in the Sahel",
+          "issuer": "UNITAR",
+          "date": "March 2022",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "xoiq0x722jjvej62wi5xmz9u",
+          "visible": true,
+          "name": "Become a Network Administrator",
+          "issuer": "LinkedIn Learning",
+          "date": "March 2021",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "yy4v4lz8ht63tyf8umsshpdp",
+          "visible": true,
+          "name": "Become Windows Server 2019 System Administrator",
+          "issuer": "LinkedIn Learning",
+          "date": "December 2021",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "ikuvxk8lpmxvchb024bxbx9q",
+          "visible": true,
+          "name": "Command Line in Linux",
+          "issuer": "Coursera",
+          "date": "September 2020",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "education": {
+      "name": "Education",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "education",
+      "items": [
+        {
+          "id": "mv1lz76pr2cdno3ltv0eznye",
+          "visible": true,
+          "institution": "ALX Africa",
+          "studyType": "Full-Stack Engineer",
+          "area": "Computer Software Engineering",
+          "score": "",
+          "date": "May 2023 - September 2024",
+          "summary": "<ul><li><p style=\"text-align: justify\">Low-level and High-level Programming;</p></li><li><p style=\"text-align: justify\">Data Structure and Algorithms;</p></li><li><p style=\"text-align: justify\">Systems Engineering and DevOps;</p></li><li><p style=\"text-align: justify\">Technical Writing and Networking;</p></li><li><p style=\"text-align: justify\">Backend Engineering (Specialization)</p></li></ul>",
+          "url": {
+            "label": "ALX Africa",
+            "href": "https://www.alxafrica.com"
+          }
+        },
+        {
+          "id": "my3v31n4txbypt4vxompim8c",
+          "visible": true,
+          "institution": "ESCEP Niger (former EST Niger)",
+          "studyType": "Master's",
+          "area": "Computer Systems Networking and Telecommunications",
+          "score": "",
+          "date": "September 2020 - July 2022",
+          "summary": "<ul><li><p>Computing and Telecommunications;</p></li><li><p>Network and Telecommunications Services (Specialization)</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "r2aax8jeabm7lshixrzgpdy0",
+          "visible": true,
+          "institution": "ESCEP Niger (former EST Niger)",
+          "studyType": "License",
+          "area": "Computer Systems Networking and Telecommunications",
+          "score": "14",
+          "date": "November 2019 - December 2020",
+          "summary": "<ul><li><p>Computing and Telecommunications;</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "r7obecnf8j08hqd8028cejvd",
+          "visible": true,
+          "institution": "ESCEP Niger (former EST Niger)",
+          "studyType": "Higher Techician diploma",
+          "area": "Telecommunications",
+          "score": "",
+          "date": "September 2017 - November 2019",
+          "summary": "<ul><li><p>Computing and Telecommunications;</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "experience": {
+      "name": "Experience",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "experience",
+      "items": [
+        {
+          "id": "q1upcfot1vn336updyh3c3jj",
+          "visible": true,
+          "company": "Freelance",
+          "position": "Software Engineer",
+          "location": "Niger",
+          "date": "September 2022 - Present",
+          "summary": "<ul><li><p>HTML5/CSS3/JS, jQuery</p></li><li><p>Python,  BASH, Flask, Git &amp; GitHub</p></li><li><p>SQL, MySQL, PostgreSQL</p></li><li><p>Trello</p></li></ul>",
+          "url": {
+            "label": "My Github",
+            "href": "https://github.com/Ibrahim227"
+          }
+        },
+        {
+          "id": "bsrb3vw39ze8ce29bq5gj1y7",
+          "visible": true,
+          "company": "NINETEC",
+          "position": "Intern Technician",
+          "location": "Niamey, Niger",
+          "date": "December 2023 - March 2024",
+          "summary": "<ul><li><p>Survey and Installation of new clients;</p></li><li><p>Troubleshooting and Uninstallation;</p></li></ul>",
+          "url": {
+            "label": "ninetec",
+            "href": "https://ninetec.ne"
+          }
+        },
+        {
+          "id": "cycvc2axxvndckrci1ys6eyf",
+          "visible": true,
+          "company": "IT Support Technician",
+          "position": "Catholic Relief Services",
+          "location": "Niamey",
+          "date": "July 2023 - October 2023",
+          "summary": "<ul><li><p>IT Support;</p></li><li><p>Training;</p></li><li><p>Collection, Processing, and Sending of Data</p></li></ul><p></p>",
+          "url": {
+            "label": "crs",
+            "href": "https://www.crs.org/our-work-overseas/where-we-work/niger"
+          }
+        },
+        {
+          "id": "kghscdxyfcyt1fq4s7drpil0",
+          "visible": true,
+          "company": "HC3N",
+          "position": "Intern Technician",
+          "location": "Niamey, Niger",
+          "date": "April 2023 - August 2023",
+          "summary": "<ul><li><p style=\"text-align: justify\">Dissertation writing;</p></li><li><p style=\"text-align: justify\">Desktop App development using Python and its built-in libraries</p></li><li><p style=\"text-align: justify\">Learning on Precision Agriculture</p></li></ul>",
+          "url": {
+            "label": "hc3n",
+            "href": "http://www.initiative3n.ne/"
+          }
+        },
+        {
+          "id": "py2jy5ffk17zi3uubrbihs3n",
+          "visible": true,
+          "company": "NIGERTELECOMS",
+          "position": "Intern Technician",
+          "location": "Niamey, Niger",
+          "date": "June 2019 - August 2019",
+          "summary": "<ul><li><p>Network Troubleshoot;</p></li><li><p>Clients installations</p></li></ul>",
+          "url": {
+            "label": "nigertelecoms",
+            "href": "https://www.nigertelecoms.ne/"
+          }
+        }
+      ]
+    },
+    "volunteer": {
+      "name": "Volunteering",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "volunteer",
+      "items": []
+    },
+    "interests": {
+      "name": "Interests",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "interests",
+      "items": []
+    },
+    "languages": {
+      "name": "Languages",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "languages",
+      "items": [
+        {
+          "id": "r20rhkqhsn89bnjg6zmm9b5y",
+          "visible": true,
+          "name": "English",
+          "description": "",
+          "level": 0
+        },
+        {
+          "id": "xdfmxwsuiof4a3ipp99k3nyn",
+          "visible": true,
+          "name": "French",
+          "description": "",
+          "level": 0
+        },
+        {
+          "id": "yhbotvb6f9q29212c0ftaamt",
+          "visible": true,
+          "name": "Arabic - School",
+          "description": "",
+          "level": 0
+        }
+      ]
+    },
+    "profiles": {
+      "name": "Social Media",
+      "columns": 3,
+      "separateLinks": true,
+      "visible": true,
+      "id": "profiles",
+      "items": [
+        {
+          "id": "creofrxst3c38875sqcuhu1j",
+          "visible": true,
+          "network": "LinkedIn",
+          "username": "Maman Sani Ibrahim",
+          "icon": "linkedin",
+          "url": {
+            "label": "",
+            "href": "https://linkedin.com/in/maman-sani-ibrahim"
+          }
+        },
+        {
+          "id": "qmr6hjwj5zlj68ce35h6xuzs",
+          "visible": true,
+          "network": "Github",
+          "username": "Maman Sani Ibrahim",
+          "icon": "github",
+          "url": {
+            "label": "Github",
+            "href": "https://github.com/Ibrahim227"
+          }
+        },
+        {
+          "id": "oma7w4ieeymclpr6xqkm64w8",
+          "visible": true,
+          "network": "Twitter",
+          "username": "Maman Sani Ibrahim",
+          "icon": "x",
+          "url": {
+            "label": "Twitter",
+            "href": "https://twitter.com/msaniibrahim_"
+          }
+        }
+      ]
+    },
+    "projects": {
+      "name": "Projects",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "projects",
+      "items": [
+        {
+          "id": "x6tbdrky7xqav9gis83trtzx",
+          "visible": true,
+          "name": "PixelPacker",
+          "description": "An Image compression Algorithm",
+          "date": "May 2024 - Present",
+          "summary": "",
+          "keywords": [],
+          "url": {
+            "label": "PixelPacker",
+            "href": "https://github.com/Ibrahim227/PixelPacker/blob/master/README.md"
+          }
+        },
+        {
+          "id": "b4p9abbcbf0dicectpxm47eb",
+          "visible": true,
+          "name": "Coalition Frontend Dev challenge",
+          "description": "Convert Adobe XD Template to HTML5/CSS3/JS code",
+          "date": "Jun 2024 - June 2024",
+          "summary": "<p>I use HTML5/CSS3 and JS to make an API call to fill some parts of the UI.</p>",
+          "keywords": [],
+          "url": {
+            "label": "link to hosted page",
+            "href": "https://ibrahim227.github.io/recruit-test/"
+          }
+        }
+      ]
+    },
+    "publications": {
+      "name": "Publications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "publications",
+      "items": []
+    },
+    "references": {
+      "name": "References",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "references",
+      "items": []
+    },
+    "skills": {
+      "name": "Skills",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "skills",
+      "items": [
+        {
+          "id": "xlc6cub4ecoczpfebmus036p",
+          "visible": true,
+          "name": "OS",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Windows",
+            "Linux",
+            "MS Office",
+            "Ubuntu"
+          ]
+        },
+        {
+          "id": "b7crklrdb5c9tttshde3pa9h",
+          "visible": true,
+          "name": "Programming",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Python",
+            "PostgreSQL",
+            "MySQL",
+            "SQL",
+            "BASH",
+            "jQuery",
+            "HTML5/CSS3/JS",
+            "Flask",
+            "Puppet (CMS tool)"
+          ]
+        },
+        {
+          "id": "w3rptfcvbq9nts923aql9w4j",
+          "visible": true,
+          "name": "Version Control",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Git",
+            "GitHub",
+            "GitLab"
+          ]
+        }
+      ]
+    },
+    "custom": {}
+  },
+  "metadata": {
+    "template": "gengar",
+    "layout": [
+      [
+        [
+          "profiles",
+          "summary",
+          "experience",
+          "education",
+          "projects",
+          "volunteer",
+          "references"
+        ],
+        [
+          "skills",
+          "interests",
+          "certifications",
+          "awards",
+          "publications",
+          "languages"
+        ]
+      ]
+    ],
+    "css": {
+      "value": ".section {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}",
+      "visible": false
+    },
+    "page": {
+      "margin": 18,
+      "format": "a4",
+      "options": {
+        "breakLine": false,
+        "pageNumbers": false
+      }
+    },
+    "theme": {
+      "background": "#ffffff",
+      "text": "#000000",
+      "primary": "#475569"
+    },
+    "typography": {
+      "font": {
+        "family": "IBM Plex Serif",
+        "subset": "latin",
+        "variants": [
+          "regular",
+          "600"
+        ],
+        "size": 14
+      },
+      "lineHeight": 1.5,
+      "hideIcons": false,
+      "underlineLinks": true
+    },
+    "notes": ""
+  }
+}

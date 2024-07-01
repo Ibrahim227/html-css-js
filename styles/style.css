@@ -1,0 +1,553 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    font-size: 100%;
+    font-family: "Sofia", sans-serif;
+}
+
+h1 {
+    color: green;
+    background-color: rgba(240, 240, 240, 1);
+    background-image: url("/img/workplace.jpg");
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-family: "Times New Roman", Times, serif;
+    opacity: 0.3;
+    margin-top: 90px;
+}
+h1:hover {opacity:1;}
+
+::selection {
+    background: orange;
+    color: white;
+}
+::marker {
+    color: red;
+    font-size: 1em;
+}
+header {
+    position: sticky;
+    margin-bottom: 30px;
+    height: 100px;
+    background: powderblue;
+    background-image: url("/img/image.jpg");
+}
+header  div#logo img {
+    width: auto;
+    height: 100px;
+    background-attachment: fixed;
+    opacity: 0.3;
+}
+header  div#logo img:hover {
+    opacity: 1;
+}
+.menu {
+    background-color: lightgray;
+    color: red;
+    float: left;
+    position: sticky;
+    margin-bottom: 50px;
+    width: 100%;
+}
+.menu a {
+    display: block;
+    padding: 8px;
+    background-color: lightgray;
+     text-decoration: none;
+}
+.menu a:hover {
+    background-color: #111;
+}
+.menu a:active {
+    background-color: green;
+}
+
+div.tfloat {
+    color: red;
+    float: left;
+}
+.clearfix::after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+body div#demo, div#worker {
+    background: url("img/birdd.jpg") repeat;
+    width: 500px;
+    height: 200px;
+    border-style: solid;
+    box-shadow: 5px 5px 3px lightgreen;
+
+}
+#result {
+    margin: 10px 0 10px 0;
+    width: 300px;
+    height: 200px;
+    border: 10px dotted black;
+    padding: 35px;
+    background: url('/img/regx.jpg');
+    background-repeat:  no-repeat;
+    background-clip: content-box;
+    box-shadow: 5px 5px 3px lightgreen;
+}
+p {
+    background-color: powderblue;
+    font-size: 100%;
+    font-family: Times New Roman, Times, serif;
+    text-align: justify;
+    color: hsl(0, 20%, 50%);
+    margin: 20px 0 0 0;
+}
+
+
+body .column {
+  display: flex;
+  flex-flow: wrap;
+  align-items: baseline;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 205px;
+  border: 2px solid black;
+}
+body .column1 {
+  padding: 5px;
+  float: left;
+  width: 200px;
+  height: 100px;
+  border: 2px dashed green;
+}
+body .column2 {
+  padding: 5px;
+  flex-grow: 8;
+  float: left;
+  width: 200px;
+  height: 100px;
+  border: 2px dashed gray;
+}
+body .column3 {
+  padding: 5px;
+  float: left;
+  width: 200px;
+  height: 100px;
+  border: 2px dashed red;
+}
+
+body .icon {
+  display: flex;
+}
+hr {
+    width: 100%;
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+  padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a[target] {
+    background-color: yellow;
+    border: 2px solid green;
+}
+body button.btn {
+  border: 2px solid red;
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  width: 300px;
+}
+body button.btn:hover {
+    background-color: red;
+}
+body button.btn1 {
+  border: 2px solid red;
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: not-allowed;
+  opacity: 0.6;
+  width: 300px;
+  column-rule: 2px dashed lightblue;
+}
+
+body button.btn2 {
+  border: 2px solid red;
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.6s;
+  width: 300px;
+}
+body button.btn2:hover {
+    background-color: pink;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+body .textarea {
+    resize: both;
+    overflow: auto;
+    outline: 5px dotted lightgreen;
+    outline-offset: 12px;
+}
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+  font-family: "Times New Roman", Times, serif;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th {
+    background-color: lightgreen;
+    color: white;
+}
+tr:hover {
+    background-color: coral;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+body div.note.main {
+    background-color: red;
+}
+body div.note {
+    background-color: pink;
+    border-style: solid;
+}
+
+div.center {
+    font-family: "Sofia", sans-serif;
+    color: red;
+    margin: 10px 0 0 0;
+    padding: 10px 0 0 0;
+    border: 2px dashed #f00;
+    outline: thick ridge #0f0;
+    outline-offset: 1px;
+    text-align: justify;
+    text-align-last: justify;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    vertical-align: baseline;
+    text-decoration: underline dotted #404040 2px;
+    text-transform: uppercase;
+}
+div.center::first-line {
+    background-color: #f00;
+    color: white;
+}
+div.center::first-letter {
+    background-color: darkblue;
+}
+div:hover p {
+    background-color: #f00;
+    display: inline-block;
+}
+div + p {
+    background-color: yellow;
+}
+
+div ~ p {
+    background-color: darkorange;
+}
+
+/*example of a pseudo-class selector:pseudo-class {property:value;}*/
+fieldset input.search:focus {
+    background-color: lightgray;
+}
+/*example of a pseudo-class selector::pseudo-element {property:value;}
+    Notice the double colon in the pseudo-element selector
+*/
+
+div p::first-letter {
+    text-transform: capitalize;
+    background-color: tomato;
+}
+
+div.back {
+    background: url("/img/regx.jpg")  right top no-repeat, url("/img/workplace.jpg") right bottom repeat;
+    border: 2px solid black;
+    background-size: 500px, 100px;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: #fff;
+    border: 10px solid transparent;
+    opacity: 0.6;
+    padding: 15px;
+    border-image: url("/img/workplace.jpg");
+
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+/*
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    width: 10%;
+    background-color: #f1f1f1;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}*/
+
+input[type="number"] {
+    width: auto;
+    display: block;
+    margin-bottom: 10px;
+    background-color: pink;
+}
+input[type=text] {
+    border: 3px solid #f0f;
+    background-color: white;
+    background-image: url('/img/search-icon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px
+}
+input[type=text]:focus {
+  width: 100%;
+  transition: width 0.4s ease-in-out;
+}
+
+.gradient {
+    display: flex;
+    width: 100%;
+    box-shadow: 5px 5px 2.5px lightblue;
+}
+.gradient-1 {
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    background-image: linear-gradient(to bottom, red, pink);
+}
+.gradient-2 {
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    background-image: linear-gradient(to right, lightgreen, violet);
+}
+.gradient-3 {
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    background-image: linear-gradient(to top, lightgray, blue);
+}
+.gradient-4 {
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    background-image: linear-gradient(to left, yellow, darkblue);
+}
+.gradient-5 {
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    background-image: linear-gradient(to left, powderblue 15%, white);
+}
+.gradient-6 {
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet );
+}
+.gradient-7 {
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    background-image: radial-gradient(circle, red, orange, yellow, green);
+}
+.gradient-8 {
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    background-image: radial-gradient(blue, indigo, violet);
+}
+.gradient-9 {
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    background-image: radial-gradient(closest-corner at 60% 55%, blue, green, pink);
+}
+.gradient-10 {
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    background-image: repeating-radial-gradient(blue, green 10%, pink 15%);
+}
+.gradient-11 {
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    background-image: conic-gradient(red, green, white);
+}
+.gradient-12 {
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    background-image: conic-gradient(lightgray, powderblue, red, green, lightgreen);
+}
+.gradient-13 {
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    background-image: conic-gradient(red 45deg, green 120deg, purple 69deg);
+}
+.gradient-14 {
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    background-image: conic-gradient(lightgray, powderblue, red, green, lightgreen);
+    border-radius: 50%;
+}
+.gradient-15 {
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+    border-radius: 50%;
+}
+.gradient-16 {
+    border: 2px solid black;
+    width: 100px;
+    height: 200px;
+    background-image: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, blue 20deg 30deg);
+    border-radius: 50%;
+}
+.anime {
+    display: flex;
+    width: 100%;
+}
+.anime img {
+    width: 300px;
+    height: 200px;
+    filter: grayscale(25%);
+}
+.test-transform {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    margin: 0 95px 0 0;
+    transform: translate(50px, 10px);
+    background: yellow;
+    transition: width 2s, height 3s, transform 2s;
+    transition-timing-function: ease-out;
+    transition-delay: 1s;
+}
+.test-transform:hover {
+    width: 300px;
+    height: 200px;
+}
+
+@keyframes example {
+    0% {background-color: powderblue; left:0px; top:0px;}
+    25% {background-color: red; left:0px; top:200px;}
+    55% {background-color: green; left:200px; top:200px}
+    75% {background-color: yellow; left:100px; top:0px;}
+    100% {background-color: purple;}
+}
+.animation {
+    width:200px;
+    height:200px;
+    background-color: powderblue;
+    border: 2px solid black;
+    animation: example 5s linear 2s infinite both alternate;
+}
+
+.anime .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+body img#bird {
+    -webkit-box-reflect: right 20px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+body picture img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
