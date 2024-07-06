@@ -11,5 +11,14 @@ function myFunction() {
     }
 }
 
-const myHeading = document.getElementsById("E");
-myHeading.textContent = "Hello World!";
+const myImage = document.querySelector("img");
+
+myImage.onclick = () => {
+  const mySrc = myImage.getAttribute("src");
+  if (mySrc === "images/regx.jpg") {
+    myImage.setAttribute("src", "images/workplace.jpg");
+  } else {
+    myImage.setAttribute("src", "images/regx.jpg");
+  }
+};
+
