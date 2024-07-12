@@ -11,8 +11,6 @@ class SchoolMember:
         print("Name: {}, Age: {}, School: {},".format(self.name, self.age, self.school), end=" ")
 
 
-
-
 class Teacher(SchoolMember):
     def __init__(self, name, age, school, salary):
         SchoolMember.__init__(self, name, age, school)
