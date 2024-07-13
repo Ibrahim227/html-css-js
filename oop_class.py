@@ -33,7 +33,7 @@ class Student(SchoolMember):
         print("Marks: {:d}".format(self.marks))
 
 
-student = Student("Ibrahim", 26, "UAM", 89)
+student = Student("Tankari", 36, "UAM", 89)
 teacher = Teacher("Maty", 48, "UAM", 1000000)
 
 print()
