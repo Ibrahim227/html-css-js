@@ -13,7 +13,7 @@ for n in range(2, 10):
 
 
 def http_response(status):
-    valid_response = input('Please enter a valid response: 400-500>>>')
+    valid_response = http_response(input('Please enter a valid response: 400-500>>>'))
     match status:
         case 400:
             return 'Bad request'
@@ -23,6 +23,7 @@ def http_response(status):
             return 'Forbidden'
         case 404:
             return 'Not Found'
+    return valid_response
 
 
 class Point:
@@ -30,20 +31,15 @@ class Point:
         self.x = x
         self.y = y
 
-
-def where_is_point(point):
-    match point:
-        case Point(x=0, y=0):
-            print('Origin')
-        case Point(x=0, y=y):
-            print(f'Y={y}')
-        case Point(x=x, y=0):
-            print(f'X={x}')
-        case Point():
-            print('Something else...')
-        case _:
-            print('Not a point')
-
-
-p = Point(1, 2)
-print('x is:', p.x, 'y is:', p.y)
+    def where_is_point(self, point):
+        match point:
+            case Point(x=0, y=0):
+                print('Origin')
+            case Point(x=0, y=y):
+                print(f'Y={y}')
+            case Point(x=x, y=0):
+                print(f'X={x}')
+            case Point():
+                print('Something else...')
+            case _:
+                print('Not a point')
