@@ -81,6 +81,7 @@ def fill(a, l=[]):
     l.append(a)
     return l, len(l)
 
+
 fi = fill(1)
 print(fi)
 f1 = fill(2)
@@ -93,3 +94,51 @@ print(f3)
 b = {'fname': 'Mike', 'lname': 'Pence', 'Job': 'Former SG White House'}
 for key, value in b.items():
     print(f"{key}: {value}")
+
+
+def mixed(arg, /, standard, *, kword):
+    """A function that returns and only_position and an only_keyword arguments"""
+    print(f"{arg}, {standard}, {kword}")
+
+
+mixed(1, 2, kword=5)
+
+
+def info(*name, sep='.'):
+    return sep.join(name)
+
+
+print(info('ibrahim01@gmail', 'com'))
+
+pairs = [(1, 'one'), (2, 'two'), (3, 'three'), (4, 'four')]
+pairs.sort(key=lambda x: x[0])
+
+print('Mixed Docs:', mixed.__doc__)
+
+matrix = [
+    [1, 2, 3, 4],
+    [5, 6, 7, 8],
+    [9, 10, 11, 12],
+]
+var = [[row[i] for row in matrix] for i in range(4)]
+print(var)
+# for i in range(4):
+#     print(matrix[i])
+
+a = 'abracadabra'
+value = {x for x in a if x not in 'ab'}
+print(value)
+
+val = {'name': 'IB', 'lastName': 'Zakari'}
+for i in val.get('name'):
+    # print(i, end='')
+    pass
+
+for key, value in val.items():
+    # print(key, value, end=' ')
+    pass
+
+# print(val.popitem())
+
+val.update({'name': 'Tanko'})
+print(val)
