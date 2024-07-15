@@ -1,3 +1,4 @@
+import collections
 from enum import Enum
 
 a = ['Mary', 'had', 'a', 'little', 'lamb']
@@ -142,3 +143,22 @@ for key, value in val.items():
 
 val.update({'name': 'Tanko'})
 print(val)
+
+s = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(s)
+s *= 2
+print(s)
+z = 'ibrahim'
+print(z.capitalize())
+print(z.endswith('m'))
+vt = bytearray(b'mhdAfroTrap')
+print(vt)
+
+uv = {'ali', 'manzo'}
+tv = {'bound', 'target'}
+
+print(uv.intersection() | tv.intersection())
+uv.add('zero')
+print(uv.intersection() | tv.intersection())
+print(b.copy())
+print(list(reversed(b)))
