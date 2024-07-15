@@ -162,3 +162,28 @@ uv.add('zero')
 print(uv.intersection() | tv.intersection())
 print(b.copy())
 print(list(reversed(b)))
+dishes = {'eggs': 2, 'sausage': 1, 'bacon': 1, 'spam': 500}
+keys = dishes.keys()
+values = dishes.values()
+
+n = 0
+for val in values:
+    n += val
+print(n)
+
+
+def average(val: list[float]) -> float:
+    return sum(val) / len(val)
+
+cb = average([12, 13, 14, 15, 16, 17])
+print(cb)
+
+bn = list[float]
+print(type(bn))
+
+
+class MyClass:
+    x = 5
+
+p1 = MyClass()
+print(MyClass.x)
