@@ -173,6 +173,10 @@ print(n)
 
 
 def average(val: list[float]) -> float:
+    """
+
+    :type val: object
+    """
     return sum(val) / len(val)
 
 cb = average([12, 13, 14, 15, 16, 17])
