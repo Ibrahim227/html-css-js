@@ -22,3 +22,6 @@ myImage.onclick = () => {
   }
 };
 
+function changeValue() {
+    document.getElementById("pre-btn").innerHTML = "Javascript changed this content after the Click!";
+}
