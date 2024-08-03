@@ -62,3 +62,9 @@ for (let [fruit, value] of Object.entries(fruits)) {
   txt += fruit + ": " + value + '<br>';
 }
 document.getElementById("demo3").innerHTML = JSON.stringify(txt);
+
+function displayTime() {
+  time = Date();
+  this.innerHTML = time;
+};
+document.getElementById("demo4").innerHTML = displayTime();
