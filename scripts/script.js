@@ -64,6 +64,5 @@ for (let [fruit, value] of Object.entries(fruits)) {
 document.getElementById("demo3").innerHTML = JSON.stringify(txt);
 
 function displayTime() {
-  time = Date();
-  return time;
+  return Date();
 };
