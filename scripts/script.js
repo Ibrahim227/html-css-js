@@ -65,6 +65,5 @@ document.getElementById("demo3").innerHTML = JSON.stringify(txt);
 
 function displayTime() {
   time = Date();
-  this.innerHTML = time;
+  return time;
 };
-document.getElementById("demo4").innerHTML = displayTime();
