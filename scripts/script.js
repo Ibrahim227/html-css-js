@@ -62,3 +62,10 @@ for (let [fruit, value] of Object.entries(fruits)) {
   txt += fruit + ": " + value + '<br>';
 }
 document.getElementById("demo3").innerHTML = JSON.stringify(txt);
+
+
+function displayDate() {
+  const d = new Date();
+  s = d.toString();
+  window.alert(s);
+}
